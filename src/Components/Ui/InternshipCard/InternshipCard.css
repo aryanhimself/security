@@ -1,0 +1,21 @@
+.internship__message__card {
+  /* width: 236px;
+    height: 304px; */
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 27px;
+  border-radius: 5px;
+  width: 236px;
+  /* height: 304px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.internship__message__content {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+.internship__message__date h2 {
+  color: var(--border-color);
+  font-size: 14px;
+}

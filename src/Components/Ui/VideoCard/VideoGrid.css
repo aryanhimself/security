@@ -1,0 +1,32 @@
+.video__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .video__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* For mobile phones: */
+  .video__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .life__section__content h2 {
+    width: auto;
+  }
+
+  .video__footer__left {
+    font-size: 20px;
+  }
+  .video__footer__right {
+    font-size: 20px;
+  }
+}

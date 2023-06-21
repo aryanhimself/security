@@ -1,6 +1,6 @@
 import React from "react";
 import "./UniqueFeature.css";
-import VideoJs from "../Ui/VideoJs";
+import VideoJs from "@/Components/Ui/VideoJs";
 
 const FirstUniqueFeature = () => {
   return (

@@ -1,0 +1,41 @@
+.career__section {
+  background-color: var(--secondary-bg-color) !important;
+  color: var(--secondary-color) !important;
+}
+.career__button__component {
+  gap: 30px;
+  margin-top: 50px;
+}
+.career__section .card__container {
+  background: #ffffff;
+}
+.career__button__component button {
+  /* background-color: var(--border-color);
+    border: 2px solid var(--border-color);
+    color: var(--primary-color);
+    padding: 12px 23px;
+    cursor: pointer; */
+  background-color: var(--primary-bg-color);
+  border: 2px solid var(--border-color);
+  color: var(--primary-color);
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: InterNormal;
+  width: 270px !important;
+}
+.career__button__component button:hover {
+  background-color: var(--border-color);
+}
+@media only screen and (max-width: 980px) {
+  /* For mobile phones: */
+  .career__button__component {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .career__button__component {
+    flex-direction: column;
+  }
+}

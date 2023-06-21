@@ -1,0 +1,27 @@
+{
+  "prettier.enable": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.comments.insertSpace": true,
+  "editor.lineHeight": 1.8,
+
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.addMissingImports"
+  ],
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "typescript.autoClosingTags": true,
+  "typescript.suggest.autoImports": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+
+  "files.exclude": {
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/node_modules": true
+  }
+}
