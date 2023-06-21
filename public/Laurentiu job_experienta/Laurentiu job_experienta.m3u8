@@ -1,0 +1,19 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:17
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:16.666667,
+Laurentiu job_experienta-000.ts
+#EXTINF:8.333333,
+Laurentiu job_experienta-001.ts
+#EXTINF:8.333333,
+Laurentiu job_experienta-002.ts
+#EXTINF:8.333333,
+Laurentiu job_experienta-003.ts
+#EXTINF:8.333333,
+Laurentiu job_experienta-004.ts
+#EXTINF:16.666667,
+Laurentiu job_experienta-005.ts
+#EXTINF:3.033333,
+Laurentiu job_experienta-006.ts
+#EXT-X-ENDLIST

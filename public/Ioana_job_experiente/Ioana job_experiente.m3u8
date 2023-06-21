@@ -1,0 +1,23 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:17
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:16.666667,
+Ioana job_experiente-000.ts
+#EXTINF:8.333333,
+Ioana job_experiente-001.ts
+#EXTINF:8.333333,
+Ioana job_experiente-002.ts
+#EXTINF:8.333333,
+Ioana job_experiente-003.ts
+#EXTINF:8.333333,
+Ioana job_experiente-004.ts
+#EXTINF:16.666667,
+Ioana job_experiente-005.ts
+#EXTINF:8.333333,
+Ioana job_experiente-006.ts
+#EXTINF:8.333333,
+Ioana job_experiente-007.ts
+#EXTINF:4.066667,
+Ioana job_experiente-008.ts
+#EXT-X-ENDLIST
