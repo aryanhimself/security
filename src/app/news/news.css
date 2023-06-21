@@ -1,0 +1,137 @@
+body {
+  background-color: #fff !important;
+}
+.news-body-container {
+  background-image: url("../../../public/images/news_home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 60vh; */
+  height: 516px;
+  padding-top: 50px;
+}
+.news-text-content {
+  /* width: 420px; */
+}
+.news-text-content h1 {
+  width: 580px;
+  font-family: InterMedium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #ffffff;
+}
+.news-text-content p {
+  width: 400px;
+  font-family: InterNormal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: 10px;
+}
+.news-showcase-container {
+  margin-top: 20px;
+}
+.news-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.news-button-div div {
+  margin-top: -1px;
+}
+.news-button {
+  width: max-content;
+  padding: 0px 12px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 1px;
+  font-family: InterMedium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--primary-bg-color);
+}
+
+.news-container {
+  margin-top: -55px;
+  padding-bottom: 40px;
+}
+
+.news-section {
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.notification-container {
+  background-color: #eceef1;
+  padding: 50px 0px;
+}
+.notification-box {
+  background-color: var(--primary-bg-color);
+  margin: auto;
+  width: 812px;
+  height: 817px;
+}
+.notification-box h1 {
+  font-family: InterMedium;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px !important;
+  line-height: 34px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.accereditation-section {
+  color: var(--primary-bg-color);
+  margin: 100px 0px;
+}
+.accereditation-section h1 {
+  font-family: InterMedium;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+}
+.accereditation-section p {
+  font-size: 15px;
+  font-family: InterLight;
+}
+.accereditation-section ul {
+  padding: 0px 30px;
+  font-size: 15px;
+  font-family: InterLight;
+}
+.notice-section {
+  margin: 100px 0px;
+  color: var(--primary-bg-color);
+}
+
+.notice-section h1 {
+  font-family: InterMedium;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.notice-section ul {
+  padding: 0px 30px;
+  font-size: 15px;
+  font-family: InterLight;
+}
+.notice-section p {
+  font-size: 15px;
+  font-family: InterLight;
+}
