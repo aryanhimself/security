@@ -92,6 +92,33 @@ button {
   border: none;
 }
 
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+.form__group label {
+  font-family: InterLight;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.form__control {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  font-size: 14px;
+  font-family: InterLight;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+.orange__button {
+  background-color: var(--border-color);
+  color: var(--primary-color);
+  padding: 12px 23px;
+}
+
 @media only screen and (max-width: 500px) {
   .container-sm {
     max-width: 93% !important;
